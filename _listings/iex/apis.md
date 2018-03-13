@@ -22,7 +22,7 @@ apis:
   tags: Financial
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/financial/master/_listings/iex/stock-symbol-financials-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/financial/master/_listings/iex/stock-symbol-news-last-range-get.md
 x-common:
 - type: x-authentication
   url: https://iextrading.com/developer/docs/#authentication
