@@ -8,8 +8,8 @@ x-alexaRank: "225220"
 tags:
 - Marketplace
 - Market Data
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Financial
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/stock-symbol-news-last-range-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/stock-symbol-financials-get.md
 x-common:
 - type: x-authentication
   url: https://iextrading.com/developer/docs/#authentication
