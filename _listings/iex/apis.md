@@ -23,16 +23,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/stock-symbol-news-last-range-get.md
-- name: IEX Trading API Financials
-  description: Pulls income statement, balance sheet, and cash flow data from the
-    four most recent reported quarters.
+- name: IEX Trading API News
+  description: The above example will return JSON with the following keys
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IEX-Logo.png
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0
   tags: Financial
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/stock-symbol-financials-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/financial/master/_listings/iex/stock-symbol-news-last-range-get.md
 x-common:
 - type: x-authentication
   url: https://iextrading.com/developer/docs/#authentication
